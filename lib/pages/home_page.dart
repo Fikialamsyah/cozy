@@ -45,6 +45,7 @@ class HomePage extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
+            // NOTE : POPULAR CITIES
             Padding(
               padding: EdgeInsets.only(left: edge),
               child: Text(
@@ -55,7 +56,7 @@ class HomePage extends StatelessWidget {
             const SizedBox(
               height: 16,
             ),
-            Container(
+            SizedBox(
               height: 150,
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -154,10 +155,10 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
-            // NOTE : Tips/Guidance
             const SizedBox(
               height: 30,
             ),
+            // NOTE : Tips/Guidance
             Padding(
               padding: EdgeInsets.symmetric(horizontal: edge),
               child: Text(
